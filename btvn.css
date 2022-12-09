@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial;
+  background-image: url(https://sofontsy-vendor-app.s3.amazonaws.com/shop/LaCasaDesign/logo/water.jpg)
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: palevioletred;
+}
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.content {
+  background-color:bisque ;
+  padding: 10px;
+}
+center{
+  color:palevioletred;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: lightskyblue;
+}
